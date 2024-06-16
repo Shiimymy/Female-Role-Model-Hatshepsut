@@ -1,5 +1,33 @@
 
-/* ---------------------------- header */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(227, 222, 222);
+}
+
+/* -------------------------------- header */
+
+.nav {
+    background: transparent;
+    position:fixed;
+    right: 0;
+    top: 1.5em;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    text-align: right;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    padding-right: 1em;
+}
+
+/* -------------------------------- header */
 
 .hero {
     color: rgb(227, 222, 222);
@@ -19,6 +47,7 @@ h1 {
 .hero p {
     font-size: 3em;
 }
+
 .hero img {
     margin-top: 1em;
     height: 4em;
