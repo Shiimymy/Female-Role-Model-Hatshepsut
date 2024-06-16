@@ -1,3 +1,25 @@
+
+/* ---------------------------- header */
+
+.hero {
+    color: rgb(227, 222, 222);
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.938) 0%, rgba(90, 66, 49, 0.484) 90%), url(../../images/Hatshepsut-1.jpg);
+    background-size: cover;
+    height: 85vh;
+}
+
 h1 {
-    color: blueviolet;
+   text-transform: uppercase;
+   font-size: 8em;
+}
+
+.hero p {
+    font-size: 3em;
+}
+.hero img {
+    margin-top: 1em;
+    height: 4em;
 }
