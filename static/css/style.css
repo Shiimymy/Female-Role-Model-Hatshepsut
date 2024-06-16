@@ -37,6 +37,7 @@ li {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.938) 0%, rgba(90, 66, 49, 0.484) 90%), url(../../images/Hatshepsut-1.jpg);
     background-size: cover;
     height: 85vh;
+    border-radius: 0 0 90% 90% / 10%;
 }
 
 h1 {
