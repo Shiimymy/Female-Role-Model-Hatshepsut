@@ -4,11 +4,11 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    color: rgb(227, 222, 222);
 }
 
 body {
-    background: #E3DEDE;
-    background-image: url(../../images/pngegg.png);
+    background: rgb(227, 222, 222);
     background-size: cover;
 }
 
@@ -47,7 +47,6 @@ li {
 /* -------------------------------- header */
 
 .hero {
-    color: rgb(227, 222, 222);
     text-align: center;
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -69,5 +68,29 @@ h1 {
 .hero img {
     margin-top: 1em;
     height: 4em;
+}
+
+/* -------------------------------- section */
+
+section {
+    margin-top: 3em;
+}
+
+section h2 {
+    font-size: 3em;
+    margin: 0.2em 0;
+}
+
+section p {
+    font-size: 1.2em;
+}
+
+strong {
+    color: #9E801C;
+}
+
+#about {
+    padding: 5em 4em;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.938) 0%, rgba(90, 66, 49, 0.484) 90%), url(../../images/hatshepsut.jpg) ;
 }
 
