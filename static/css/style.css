@@ -12,13 +12,18 @@ body {
     background-size: cover;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family:  "Cagliostro", sans-serif;
 }
 
 a {
     text-decoration: none;
     color: rgb(227, 222, 222);
+}
+
+a:hover {
+    color: #9E801C;
+    transition: 0.7s;
 }
 
 /* -------------------------------- header */
@@ -142,4 +147,45 @@ h3 {
     margin: auto;
 }
 
+/* ---------- more section */
 
+#more {
+    background-color: #4d5057;
+}
+
+#more h3 {
+    padding: 1em;
+    font-size: 2em;
+}
+
+#more .row {
+    padding-bottom: 2em;
+}
+
+#more img {
+    width: 15em;
+    height: 10em;
+    border-radius: 4px;
+    padding-left: 2em ;
+}
+
+h4 {
+   text-decoration: underline; 
+}
+
+#more p {
+    margin-bottom: 1.5em;
+    font-size: 1em;
+}
+
+#more a {
+    padding: 1em 0.5em;
+    background-color: #9E801C;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 1px 1px #393e46;
+}
+
+#more a:hover {
+    background-color: #E3DEDE;
+}
