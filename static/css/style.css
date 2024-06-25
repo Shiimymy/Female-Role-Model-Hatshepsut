@@ -8,7 +8,7 @@
 }
 
 body {
-    background: rgb(227, 222, 222);
+    background: #393e46;
     background-size: cover;
 }
 
@@ -72,8 +72,8 @@ h1 {
 
 /* -------------------------------- section */
 
-section {
-    margin-top: 3em;
+section { 
+    margin-top: 1.5em;
 }
 
 section h2 {
@@ -89,8 +89,29 @@ strong {
     color: #9E801C;
 }
 
+/* ---------- about section */
+
 #about {
     padding: 5em 4em;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.938) 0%, rgba(90, 66, 49, 0.484) 90%), url(../../images/hatshepsut.jpg) ;
 }
 
+/* ---------- challenges section */
+
+#challenges {
+    padding-bottom: 110px;
+}
+
+#challenges .row {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.938) 0%, rgba(90, 66, 49, 0.609) 90%), url(../../images/Hatshepsut-figure.webp);
+        background-size: cover;
+        padding-top: 25em;
+}
+
+#challenges .col-6 {
+    background-color: #4d5057;
+    position: relative;
+    border-radius: 4px;
+    bottom: -7em;
+    padding: 2em;
+}
