@@ -152,30 +152,37 @@ h3 {
 
 #more {
     background-color: #4d5057;
+    padding: 1em 0 2em 2em;
 }
 
 #more h3 {
-    padding: 1em;
     font-size: 2em;
+    margin-bottom: 1em;
 }
 
-#more .row {
-    padding-bottom: 2em;
-}
-
-#more img {
+#website-img, #doc-img {
     width: 15em;
     height: 10em;
     border-radius: 4px;
-    padding-left: 2em ;
+    margin-bottom: 1em;
+    background-position: center;
+}
+
+#website-img {
+    background-image: url(../../images/official.jpg);
+}
+
+#doc-img {
+    background-image: url(../../images/documentary.jpg);
 }
 
 h4 {
-   text-decoration: underline; 
+    margin-top: 6px;
+    text-decoration: underline; 
 }
 
 #more p {
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     font-size: 1em;
 }
 
