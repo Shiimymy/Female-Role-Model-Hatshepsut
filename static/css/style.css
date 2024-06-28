@@ -151,9 +151,13 @@ strong {
 
 /* ---------- achievements section */
 
+#achievements {
+    margin-bottom: 5em;
+}
+
 #achievements h2 {
-    margin-top: 1em;
-    margin-bottom: 0.3em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 #achievements .col {
@@ -323,6 +327,10 @@ footer a {
 
     #challenges .row {
         padding-top: 15em;
+    }
+
+    #achievements {
+        margin-bottom: 3.8em;
     }
 
     .symbols {
