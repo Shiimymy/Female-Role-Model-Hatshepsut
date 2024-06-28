@@ -36,26 +36,45 @@ a:hover {
 
 /* -------------------------------- navigation */
 
-.nav {
-    background: transparent;
-    width: 100%;
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 1em;
-    padding-right: 1.5em;
-    background: #0e07047e;
-    z-index: 1;
+nav img {
+    width: 2em;
 }
 
-li {
-    list-style: none;
-    display: inline;
-    text-align: right;
-    font-size: 1.4em;
+.bg-dark {
+    background-color: #0c0604b8 !important;
+}
+
+.navbar-brand {
+    margin-left: 1em;
+}
+
+.navbar-nav {
+    padding-right: 1.5em;
+    font-size: 1.3em;
     letter-spacing: 2px;
-    padding-right: 1em;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.nav-link {
+    color: #E3DEDE;
+}
+
+.nav-link:hover {
+    color: #9E801C;
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    border: #E3DEDE 1px solid;
+    margin-right: 1em;
+}
+
+.navbar-toggler:hover {
+    border: #9E801C 1px solid;
+    transition: 1s;
+}
+
+.navbar-collapse {
+    text-align: end;
 }
 
 /* -------------------------------- header */
@@ -224,7 +243,7 @@ footer a {
     }
 
     li {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 }
 
@@ -260,5 +279,4 @@ footer a {
     .symbols {
         font-size: 3em;
     }
-
 }
