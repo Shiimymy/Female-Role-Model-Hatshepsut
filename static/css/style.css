@@ -280,3 +280,68 @@ footer a {
         font-size: 3em;
     }
 }
+
+@media (max-width: 580px) {
+
+    h1 {
+        font-size: 3.7em;
+
+    }
+
+    nav img {
+        width: 1.5em;
+    }
+
+    .navbar-brand {
+        margin-left: 0.2em;
+    }
+
+    .navbar-toggler {
+        margin-right: 0.2em;
+    }
+
+    .navbar-nav {
+        padding-right: 0.5em;
+        font-size: 1em;
+    }
+
+    section {
+        margin-top: 0.5;
+    }
+
+    section p {
+        font-size: 0.85em;
+    }
+
+    #about {
+        padding: 2em 1em;
+    }
+
+    #challenges #challenges-box {
+        padding: 1em;
+    }
+
+    #challenges .row {
+        padding-top: 15em;
+    }
+
+    .symbols {
+        font-size: 2.3em;
+    }
+
+    #more {
+        padding-left: 1em;
+    }
+
+    #website-img, #doc-img {
+        width: 13em;
+    }
+
+    #more p {
+        font-size: 0.8em;
+    }
+
+    #more a {
+        padding: 0.7em 0.5em;
+    }
+}
